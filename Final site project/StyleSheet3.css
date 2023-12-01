@@ -1,0 +1,131 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+}
+
+/*الينك*/
+.t {
+    list-style: none;
+    padding: 0;
+}
+.t li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+    .t li a {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: indianred;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+
+        .t li a:hover {
+            background-color: darkorange;
+        }
+
+        .t li a:active {
+            background-color: aliceblue;
+        }
+/*//////////////////////*/
+/*الصور*/
+.im {
+    display: flex;
+    /**/ justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+    .im img {
+        border: 10px dotted black;
+        padding: 10px;
+        max-width: 100%;
+        height: auto;
+    }
+
+.im {
+    display: flex;
+    justify-content: center;
+}
+
+/*//////////////////////*/
+
+pr {
+    display: flex;
+    justify-content: center;
+}
+
+p.pr {
+    /*/top-right-bottom-left*/
+    border-style: double solid;
+    border-color: black crimson crimson black;
+    border-width: 5px;
+    border-radius: 10px;
+    background-color: rgb(250, 241, 215);
+    font-size: 32px;
+    text-align: center;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    word-break: break-word;
+    white-space: normal;
+    margin:10px;
+}
+
+@media (min-width: 600px) {
+    p.pr {
+        margin: 25px 300px;
+    }
+}
+
+/*//////////////////////*/
+
+#h2 {
+    text-align: right;
+    font-size: 30px;
+    background-color: bisque;
+    width: 300px;
+}
+/*//////////////////////*/
+.ol {
+    font-family: 'Arabic Typesetting';
+    color: indianred;
+    font-size: 25px;
+}
+/*//////////////////////*/
+.ar {
+    display: inline-block;
+    margin-right: 5px;
+    background-color: darksalmon;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+    .ar a:hover {
+        background-color: red;
+    }
+
+    .ar a:active {
+        background-color: white;
+    }
+
+/*//////////////////////*/
+
+
+table, th, td {
+    border: 1px solid rgb(0, 0, 0);
+    background-color:burlywood;
+}
+
+
+
+
+
+
+/*//////////////////*/
+
+
+  

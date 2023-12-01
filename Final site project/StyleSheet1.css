@@ -1,0 +1,178 @@
+﻿
+body{
+    margin:0;
+    padding:0;
+
+}
+
+.t {
+    list-style: none;
+    padding: 0;
+}
+
+    .t li {
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+        .t li a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: indianred;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .t li a:hover{
+            background-color:darkorange;
+        }
+        .t li a:active {
+            background-color:aliceblue;
+        }
+
+
+
+
+  /*//////////////////////////*/
+/*///صورة الصغحة الاولى//*/
+.m1 {
+    display: flex;
+    /**/ justify-content: center;
+    align-items: center;
+    margin: 10px;
+   
+}
+
+    .m1 img {
+        border: 10px dotted green;
+        padding: 10px;
+        max-width: 100%;
+        height: auto;
+    }
+/*//////////////////////////*/
+/*/صورة الصفحة الثانية//*/
+.m2 {
+    display: flex;
+    /**/ justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+    .m2 img {
+        border: 10px solid green;
+        padding: 10px;
+        max-width: 100%;
+        height: auto;
+    }
+/*//////////////////////////*/
+
+
+
+/*//p page1///*/
+p1 {
+    display: flex;
+    justify-content: center;
+}
+
+p.p1 {
+    /*top-right-bottom-left*/
+
+    border-style: double solid;
+    border-color: green black black green;
+    border-width: 5px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    font-size: 32px;
+    text-align: center;
+    padding: 10px 20px;
+    /**/
+    box-sizing: border-box;
+    word-break: break-word;
+    white-space: normal;
+    margin:10px;
+}
+@media (min-width: 600px) {
+    p.p1 {
+        margin: 25px 300px;
+    }
+}
+/*/////////////////////////*/
+
+
+/*/p page2////*/
+
+p3 {
+    display: flex;
+    justify-content: center;
+   
+}
+
+p.p3 {
+    /*top-right-bottom-left*/
+
+    border-style: double solid;
+    border-color: green black black green;
+    border-width: 5px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    font-size: 32px;
+    text-align: center;
+    /*50px top and bottom
+     75px  right and left
+    */
+
+    padding: 10px 20px;
+    box-sizing: border-box;
+    word-wrap:break-word;
+    white-space: normal;
+    margin:10px;
+   
+}
+@media (min-width: 600px) {
+    p.p3 {
+        margin: 25px 300px;
+    }
+}
+
+
+
+/*/////////////////////////*/
+table, th, td {
+    border: 1px solid black;
+    background-color:ivory;
+   
+}
+
+/*//////////الرابط ////////////*/
+.r {
+    display: inline-block;
+    margin-right: 5px;
+    background-color: darksalmon;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+    .r a:hover {
+        background-color: red;
+    }
+
+    .r a:active {
+        background-color: white;
+    }
+/*/////////////////////////*/
+
+#h2 {
+    text-align: right;
+    font-size: 30px;
+    background-color: bisque;
+    width: 300px;
+}
+
+
+
+
+
+
+

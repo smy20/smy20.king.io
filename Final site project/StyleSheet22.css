@@ -1,0 +1,108 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+}
+
+/*التنقل بين الصفحات*/
+.t {
+    list-style: none;
+    padding: 0;
+}
+
+    .t li {
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+        .t li a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: indianred;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+            .t li a:hover {
+                background-color: darkorange;
+            }
+
+            .t li a:active {
+                background-color: aliceblue;
+            }
+/*////////////////////////////////////////*/
+/*الصورة*/
+.mg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+    /*الصورة*/
+    .mg img {
+        border: 10px dotted rgb(105, 99, 99);
+        padding: 10px;
+        max-width: 100%;
+        height: auto;
+    }
+p.p1 {
+    border-style: outset;
+    font-size: 20px;
+    border-color: green black rgb(185, 191, 206);
+    border-width: 10px;
+    border-radius: 10px;
+    background-color:antiquewhite;
+    font-size: 32px;
+    text-align: center;
+    padding: 10px 20px;
+    /**/
+    box-sizing: border-box;
+    word-break: break-word;
+    white-space: normal;
+    margin:10px;
+}
+
+@media (min-width: 600px) {
+    p.p1 {
+        margin: 25px 300px;
+    }
+
+}
+h2 {
+    text-shadow: 3px 3px 5px green;
+}
+
+
+
+/*الجدول*/
+table, th, td {
+    border: 1px solid rgb(51, 46, 46);
+    font-size: 20px;
+}
+/*////////////////*/
+.r {
+    display: inline-block;
+    margin-right: 5px;
+    background-color: darksalmon;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+    .r a:hover {
+        background-color: red;
+    }
+
+    .r a:active {
+        background-color: white;
+    }
+.u {
+    font-family: Arial;
+    font-size: 25px;
+    color: indianred;
+    font-size: 25px;
+}
+
+
+

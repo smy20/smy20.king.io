@@ -1,0 +1,112 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta thhp-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Contact</title>
+    <style>
+
+        body {
+            background-color: linen;
+        }
+        h2 {
+            text-shadow: 3px 3px 5px green;
+        }
+        }
+
+        .t {
+            
+            list-style: none;
+            padding: 0;
+        }
+
+            .t li {
+                display: inline-block;
+                margin-right: 10px;
+            }
+
+                .t li a {
+                    display: inline-block;
+                    padding: 10px 20px;
+                    background-color: indianred;
+                    color: white;
+                    text-decoration: none;
+                    border-radius: 5px;
+                }
+
+                    .t li a:hover {
+                        background-color: darkorange;
+                    }
+
+                    .t li a:active {
+                        background-color: aliceblue;
+                    }
+
+        h2 {
+            font-size: 30px;
+            text-align: center;
+        }
+
+        form {
+            width: 300px;
+            margin: 0 auto;
+        }
+
+        input[type="text"], input[type="password"], input[type="email"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid green;
+            border-radius: 4px;
+        }
+
+        input[type="submit"] {
+            padding: 10px 20px;
+            background-color: forestgreen;
+            color: #ffffff;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+            input[type="submit"]:hover {
+                background-color: #45a049;
+            }
+    </style>
+</head>
+<body dir="rtl">
+
+    <div class="t">
+        <ul>
+            <li><a href="index.html">الصفحة الرئيسية</a></li>
+            <li><a href="index1.html">البريد الالكتروني</a></li>
+            <li><a href="index2.html">الملك عبدالعزيز</a></li>
+            <li><a href="index3.html">الملك سعود</a></li>
+            <li><a href="index4.html">الملك فيصل</a></li>
+            <li><a href="index5.html">الملك خالد</a></li>
+            <li><a href="index6.html">الملك فهد</a></li>
+            <li><a href="index7.html">أعضاء المجموعة</a></li>
+        </ul>
+    </div>
+    <img src="email.icon" alt="icon" />
+    <br />
+    <h2>Contact Us</h2>
+    <br /> <br />
+    <form>
+        Name :<input type="text" required placeholder="Enter your name"
+                     oninvalid="this.setCustomValidity('Please enter your name')"
+                     oninput="this.setCustomValidity('')" />
+        <br />
+        Password :<input type="password" required pattern="^\d{5}$" />
+        <br />
+
+        Email: <input type="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                      oninvalid="this.setCustomValidity('Please enter a valid email address')"
+                      oninput="this.setCustomValidity('')" />
+        <input type="submit" />
+    </form>
+    <br />
+
+
+
+</body>
+</html>
